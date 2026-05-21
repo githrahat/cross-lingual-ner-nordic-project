@@ -35,7 +35,7 @@ notebooks may use.
    models and produces the comparison figures. Expected runtime:
    ~15 min on GPU.
 
-### A note on file paths
+### file paths
 
 The notebooks were originally developed with absolute paths on ours
 machines. Before running, checkthe cells at the top of each notebook
