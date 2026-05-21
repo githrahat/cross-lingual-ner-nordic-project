@@ -4,15 +4,15 @@ vs.\ ~3–5 minutes on GPU).
 
 ### Data sources
 
-| Dataset | Where it lives | Setup |
+| Dataset | Where located | 
 |---|---|---|
-| English EWT-UD (NER) | `en_ewt-ud-*.iob2` files in repo root | No action needed |
-| WikiANN (DA/SV/NO NER) | Auto-downloaded via HuggingFace `datasets` | Internet connection required on first run |
-| OPUS bible-uedin | `{English,Danish,Swedish,Norwegian}.xml` in repo root | No action needed |
+| English EWT-UD (NER) | `en_ewt-ud-*.iob2` files in repo root | 
+| WikiANN (DA/SV/NO NER) | Auto-downloaded via HuggingFace `datasets` | 
+| OPUS bible-uedin | `{English,Danish,Swedish,Norwegian}.xml` in repo root |
 
 ## Reproducing the results
 
-Run the notebooks **in numerical order**. Each notebook produces
+Run the notebooks in numerical order. Each notebook produces
 artefacts (trained models, evaluation results, figures) that later
 notebooks may use.
 
@@ -37,11 +37,10 @@ notebooks may use.
 
 ### A note on file paths
 
-The notebooks were originally developed with absolute paths on the
-authors' machines (e.g.\ `D:/work/NLPDL/...`). Before running, check
-the configuration cells at the top of each notebook and update any
-hardcoded paths to point to the files in this repository's root, or
-to your local working directory.
+The notebooks were originally developed with absolute paths on ours
+machines. Before running, checkthe cells at the top of each notebook
+and update any hardcoded paths to point to the files in this
+repository's root, or to your local working directory.
 
 ## Hyperparameters
 
