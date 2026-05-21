@@ -4,10 +4,10 @@ vs.\ ~3–5 minutes on GPU).
 
 ### Data sources
 
-| Dataset | Where located | 
-|---|---|---|
-| English EWT-UD (NER) | `en_ewt-ud-*.iob2` files in repo root | 
-| WikiANN (DA/SV/NO NER) | Auto-downloaded via HuggingFace `datasets` | 
+| Dataset | Where located |
+|---|---|
+| English EWT-UD (NER) | `en_ewt-ud-*.iob2` files in repo root |
+| WikiANN (DA/SV/NO NER) | Auto-downloaded via HuggingFace `datasets` |
 | OPUS bible-uedin | `{English,Danish,Swedish,Norwegian}.xml` in repo root |
 
 ## Reproducing the results
