@@ -59,6 +59,6 @@ specification, or the configuration cells at the top of each notebook.
 
 Fine-tuned model weights (~700 MB each) are produced as a side effect
 of running the notebooks and are not stored in this repository due to
-size limits. Unfortunately, we were not albo to selve it ourselves. 
+size limits. Unfortunately, we were not albo to solve it ourselves. 
 
 
