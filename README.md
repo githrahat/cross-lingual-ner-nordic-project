@@ -60,20 +60,6 @@ specification, or the configuration cells at the top of each notebook.
 
 Fine-tuned model weights (~700 MB each) are produced as a side effect
 of running the notebooks and are not stored in this repository due to
-size limits. If you need pre-trained weights without rerunning the
-pipeline, contact the authors.
+size limits. Unfortunately, we were not albo to selve it ourselves. 
 
-## Authors
 
-- hotr@itu.dk
-- fili@itu.dk
-- alam@itu.dk
-
-IT University of Copenhagen, May 2026.
-
-## Acknowledgements
-
-The OPUS bible-uedin corpus was obtained from
-[OPUS](https://opus.nlpl.eu/). The WikiANN dataset was loaded via the
-HuggingFace `datasets` library. The English EWT-UD dataset was
-provided as part of the course.
