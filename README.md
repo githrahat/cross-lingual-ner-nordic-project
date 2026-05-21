@@ -35,9 +35,9 @@ need GPU otherwise HPC
 
 | Dataset | Source | Setup |
 |---|---|---|
-| English EWT-UD (NER) | Provided by course / [github.com/UniversalDependencies/UD_English-EWT](https://github.com/UniversalDependencies/UD_English-EWT) | Place `.iob2` files in `data/ner_data/`. Update `DATA_DIR` path in notebook 01 |
-| WikiANN (NER) | Auto-downloaded via HuggingFace `datasets` | No action needed |
-| OPUS bible-uedin (cosine) | Auto-downloaded from `object.pouta.csc.fi` | No action needed |
+| English EWT-UD (NER) | Provided by course or just right here | Place `.iob2` files in `data/ner_data/`. Update `DATA_DIR` path in notebook 01 |
+| WikiANN (NER) | Auto-downloaded via HuggingFace `datasets` | 
+| OPUS bible-uedin (cosine) | Auto-downloaded from `object.pouta.csc.fi` | 
 
 The English EWT-UD `.iob2` files are here
 
